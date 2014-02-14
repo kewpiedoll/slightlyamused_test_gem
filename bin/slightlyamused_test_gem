@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require 'slightlyamused_test_gem'
+
+name = ARGV.first || "Chris"
+
+puts SlightlyAmusedPerson.new(name).mood
